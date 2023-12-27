@@ -19,8 +19,6 @@ const errorImage = document.querySelector('[data-errorImg]');
 let currentTab = userTab;
 currentTab.classList.add("currentTab");
 getFromSessionStorage();
-// console.log(userTab);
-// console.log(searchTab);
 
 
 function switchTab(newTab) {
