@@ -22,6 +22,7 @@ getFromSessionStorage();
 // console.log(userTab);
 // console.log(searchTab);
 
+
 function switchTab(newTab) {
     notFound.classList.remove("active");
     // check if newTab is already selected or not 
